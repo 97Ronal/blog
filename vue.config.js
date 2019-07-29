@@ -1,4 +1,4 @@
 module.exports = {
-    publicPath: '/dist/',
+    publicPath: '/blog/dist/',
     indexPath:'../index.html'
 }
