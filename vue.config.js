@@ -1,4 +1,6 @@
 module.exports = {
-    publicPath:'./dist/',
+    publicPath: process.env.NODE_ENV === 'production'
+    ? './dist/'
+    : '/',
     indexPath:'../index.html'
 }
