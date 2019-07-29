@@ -1,0 +1,11 @@
+.*
+!.gitignore
+/babel.config.js
+/package.json
+/README.md
+node_modules
+*.json
+vue.config.js
+yarn.lock
+src
+public
