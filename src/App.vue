@@ -1,13 +1,18 @@
 <template>
   <div id="app">
-    <div id="nav">
-      test
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <navigate></navigate>
   </div>
 </template>
+
+<script>
+  import navigate from '@/components/layout/navigate';
+  export default {
+    components: {
+      navigate,
+    },
+  };
+</script>
+
 
 <style>
 #app {
